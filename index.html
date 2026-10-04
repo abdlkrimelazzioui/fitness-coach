@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BeeFit – Coaching Fitness Premium | Transformez Votre Corps</title>
+  <meta name="description" content="BeeFit – Coaching fitness premium personnalisé. Programmes de musculation, nutrition et transformation corporelle. Résultats garantis." />
+  <meta property="og:title" content="BeeFit – Coaching Fitness Premium" />
+  <meta property="og:description" content="Transformez votre corps avec un coaching personnalisé d'élite." />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;500;600;700;800;900&family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== NAVBAR ========== -->
+<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#hero" id="nav-logo-link">
+      <img src="../coach img/logo.jpeg" alt="BeeFit Logo" class="nav-logo" />
+      <span class="brand-name">BeeFit</span>
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation" id="nav-toggle-btn">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-center gap-lg-2">
+        <li class="nav-item"><a class="nav-link" href="#about" id="nav-about">À Propos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#programs" id="nav-programs">Programmes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#results" id="nav-results">Résultats</a></li>
+        <li class="nav-item"><a class="nav-link" href="#gallery" id="nav-gallery">Galerie</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact" id="nav-contact">Contact</a></li>
+        <li class="nav-item ms-lg-3">
+          <a href="https://wa.me/33600000000?text=Bonjour%2C%20je%20souhaite%20d%C3%A9marrer%20un%20coaching%20BeeFit" class="btn btn-red" id="nav-cta-btn" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp me-1"></i>Démarrer
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== HERO ========== -->
+<section class="hero-section" id="hero">
+  <div class="hero-bg" style="background-image: url('../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (1).jpeg');"></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-content">
+    <div class="row align-items-center min-vh-100">
+      <div class="col-lg-7 col-xl-6">
+        <div class="hero-badge animate-fade-up" style="animation-delay:.1s">
+          <i class="bi bi-lightning-charge-fill text-red me-1"></i>
+          COACHING PREMIUM
+        </div>
+        <h1 class="hero-title animate-fade-up" style="animation-delay:.2s">
+          FORGE TON<br/>
+          <span class="text-red">MEILLEURE</span><br/>
+          VERSION
+        </h1>
+        <p class="hero-subtitle animate-fade-up" style="animation-delay:.35s">
+          Programmes sur-mesure · Nutrition scientifique · Résultats prouvés.<br/>
+          Transforme ton corps en 12 semaines avec un coaching d'élite.
+        </p>
+        <div class="hero-actions d-flex flex-wrap gap-3 animate-fade-up" style="animation-delay:.5s">
+          <a href="https://wa.me/33600000000?text=Bonjour%2C%20je%20veux%20transformer%20mon%20corps%20avec%20BeeFit" class="btn btn-red btn-hero" id="hero-cta-primary" target="_blank" rel="noopener">
+            <i class="bi bi-whatsapp me-2"></i>Commencer Maintenant
+          </a>
+          <a href="#programs" class="btn btn-outline-white btn-hero" id="hero-cta-secondary">
+            Voir les Programmes
+          </a>
+        </div>
+        <div class="hero-stats d-flex gap-4 mt-5 animate-fade-up" style="animation-delay:.65s">
+          <div class="hero-stat">
+            <span class="stat-num text-red">150<span class="stat-plus">+</span></span>
+            <span class="stat-label">Clients Transformés</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="stat-num text-red">98<span class="stat-plus">%</span></span>
+            <span class="stat-label">Taux de Satisfaction</span>
+          </div>
+          <div class="hero-stat-divider"></div>
+          <div class="hero-stat">
+            <span class="stat-num text-red">5+</span>
+            <span class="stat-label">Ans d'Expérience</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <a href="#about" class="hero-scroll-down" id="hero-scroll-btn" aria-label="Scroll down">
+    <i class="bi bi-chevron-double-down"></i>
+  </a>
+</section>
+
+<!-- ========== MARQUEE STRIP ========== -->
+<div class="marquee-strip">
+  <div class="marquee-track">
+    <span>MUSCLE · FORCE · DISCIPLINE · NUTRITION · RÉSULTATS ·</span>
+    <span>MUSCLE · FORCE · DISCIPLINE · NUTRITION · RÉSULTATS ·</span>
+    <span>MUSCLE · FORCE · DISCIPLINE · NUTRITION · RÉSULTATS ·</span>
+  </div>
+</div>
+
+<!-- ========== ABOUT ========== -->
+<section class="about-section py-section" id="about">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <!-- Image column -->
+      <div class="col-lg-5">
+        <div class="about-img-wrap" data-animate="fade-right">
+          <div class="about-img-primary">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.49 (2).jpeg"
+                 alt="Coach BeeFit portrait"
+                 loading="lazy" class="img-fluid rounded-4" />
+          </div>
+          <div class="about-img-secondary">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.49 (3).jpeg"
+                 alt="Coach BeeFit en action"
+                 loading="lazy" class="img-fluid rounded-3" />
+          </div>
+          <div class="about-exp-badge">
+            <span class="exp-num">5+</span>
+            <span class="exp-text">Années d'Expérience</span>
+          </div>
+        </div>
+      </div>
+      <!-- Text column -->
+      <div class="col-lg-7" data-animate="fade-left">
+        <div class="section-eyebrow">À Propos du Coach</div>
+        <h2 class="section-title">
+          La Méthode<br/><span class="text-red">BeeFit</span>
+        </h2>
+        <p class="section-lead">
+          Passionné de fitness depuis plus de 5 ans, je suis spécialisé dans la transformation corporelle, la musculation et la nutrition sportive.
+        </p>
+        <p class="section-body">
+          Mon approche combine la science de l'entraînement avec un suivi personnalisé rigoureux. Chaque programme est taillé sur-mesure : vos objectifs, votre morphologie, votre emploi du temps. Pas de méthodes génériques — uniquement des résultats concrets.
+        </p>
+        <div class="about-pillars row g-3 mt-2">
+          <div class="col-sm-6">
+            <div class="pillar-card">
+              <i class="bi bi-trophy-fill text-red"></i>
+              <span>Programmes Personnalisés</span>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="pillar-card">
+              <i class="bi bi-heart-pulse-fill text-red"></i>
+              <span>Suivi Nutrition Complet</span>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="pillar-card">
+              <i class="bi bi-phone-fill text-red"></i>
+              <span>Suivi WhatsApp Quotidien</span>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="pillar-card">
+              <i class="bi bi-graph-up-arrow text-red"></i>
+              <span>Résultats Mesurables</span>
+            </div>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-red mt-4" id="about-cta-btn">
+          Prendre Contact <i class="bi bi-arrow-right ms-2"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STATS COUNTER ========== -->
+<section class="stats-section" id="stats">
+  <div class="stats-bg" style="background-image: url('../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (1).jpeg');"></div>
+  <div class="stats-overlay"></div>
+  <div class="container position-relative z-1">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <span class="counter text-red display-4 fw-black" data-target="150">0</span>
+          <span class="counter-plus text-red">+</span>
+          <p class="stat-desc">Clients Transformés</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <span class="counter text-red display-4 fw-black" data-target="98">0</span>
+          <span class="counter-plus text-red">%</span>
+          <p class="stat-desc">Taux de Satisfaction</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <span class="counter text-red display-4 fw-black" data-target="12">0</span>
+          <span class="counter-plus text-red">sem</span>
+          <p class="stat-desc">Transformation Garantie</p>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-block">
+          <span class="counter text-red display-4 fw-black" data-target="5">0</span>
+          <span class="counter-plus text-red">+</span>
+          <p class="stat-desc">Années d'Expérience</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PROGRAMS ========== -->
+<section class="programs-section py-section bg-dark-alt" id="programs">
+  <div class="container">
+    <div class="text-center mb-5" data-animate="fade-up">
+      <div class="section-eyebrow">Mes Programmes</div>
+      <h2 class="section-title">Choisissez Votre<br/><span class="text-red">Transformation</span></h2>
+      <p class="section-subtitle">Trois formules d'accompagnement pour tous les profils et objectifs.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+
+      <!-- Starter -->
+      <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.1s">
+        <div class="program-card h-100" id="prog-starter">
+          <div class="program-img-wrap">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.48 (5).jpeg"
+                 alt="Programme Starter BeeFit" loading="lazy" />
+            <div class="program-img-overlay"></div>
+          </div>
+          <div class="program-body">
+            <div class="program-tag">Débutant</div>
+            <h3 class="program-title">Starter Pack</h3>
+            <p class="program-desc">Idéal pour ceux qui commencent leur voyage fitness. Bases solides, progression graduelle.</p>
+            <ul class="program-features">
+              <li><i class="bi bi-check-circle-fill text-red"></i>Programme 3j/semaine</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Plan nutrition de base</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Suivi mensuel</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Accès communauté</li>
+            </ul>
+            <a href="https://wa.me/33600000000?text=Bonjour%2C%20je%20veux%20le%20Starter%20Pack%20BeeFit" class="btn btn-outline-red w-100 mt-auto" id="prog-starter-btn" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-2"></i>Je Commence
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pro – featured -->
+      <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.2s">
+        <div class="program-card program-featured h-100" id="prog-pro">
+          <div class="program-badge">⭐ Populaire</div>
+          <div class="program-img-wrap">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (2).jpeg"
+                 alt="Programme Pro BeeFit" loading="lazy" />
+            <div class="program-img-overlay"></div>
+          </div>
+          <div class="program-body">
+            <div class="program-tag">Intermédiaire</div>
+            <h3 class="program-title">Pro Coaching</h3>
+            <p class="program-desc">Le programme signature BeeFit. Résultats visibles en 8 semaines, suivi intensif.</p>
+            <ul class="program-features">
+              <li><i class="bi bi-check-circle-fill text-red"></i>Programme 5j/semaine</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Nutrition sur-mesure</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Suivi WhatsApp quotidien</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Check-in hebdomadaire</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Ajustements en temps réel</li>
+            </ul>
+            <a href="https://wa.me/33600000000?text=Bonjour%2C%20je%20veux%20le%20Pro%20Coaching%20BeeFit" class="btn btn-red w-100 mt-auto" id="prog-pro-btn" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-2"></i>Je Veux les Résultats
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Elite -->
+      <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.3s">
+        <div class="program-card h-100" id="prog-elite">
+          <div class="program-img-wrap">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.49 (1).jpeg"
+                 alt="Programme Elite BeeFit" loading="lazy" />
+            <div class="program-img-overlay"></div>
+          </div>
+          <div class="program-body">
+            <div class="program-tag">Avancé</div>
+            <h3 class="program-title">Elite VIP</h3>
+            <p class="program-desc">L'expérience coaching ultime. Accès illimité, appels vidéo, plan nutrition journalier.</p>
+            <ul class="program-features">
+              <li><i class="bi bi-check-circle-fill text-red"></i>Programme 6j/semaine</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Nutrition journalière précise</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Accès illimité au coach</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Appels vidéo hebdomadaires</li>
+              <li><i class="bi bi-check-circle-fill text-red"></i>Analyses de morphologie</li>
+            </ul>
+            <a href="https://wa.me/33600000000?text=Bonjour%2C%20je%20veux%20le%20coaching%20Elite%20VIP%20BeeFit" class="btn btn-outline-red w-100 mt-auto" id="prog-elite-btn" target="_blank" rel="noopener">
+              <i class="bi bi-whatsapp me-2"></i>Rejoindre l'Élite
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ========== PHILOSOPHY / WHY ========== -->
+<section class="why-section py-section" id="why">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6" data-animate="fade-right">
+        <div class="section-eyebrow">La Philosophie BeeFit</div>
+        <h2 class="section-title">Pas de Raccourcis.<br/><span class="text-red">Que des Résultats.</span></h2>
+        <p class="section-body mb-4">
+          Chez BeeFit, on ne vend pas des promesses. On construit des corps et des mentalités. Chaque programme est fondé sur la science, adapté à votre réalité et soutenu par un coaching humain et bienveillant.
+        </p>
+        <div class="why-list d-flex flex-column gap-3">
+          <div class="why-item d-flex align-items-start gap-3">
+            <div class="why-icon"><i class="bi bi-lightning-fill text-red"></i></div>
+            <div>
+              <h5>Progression Constante</h5>
+              <p>Chaque semaine, on avance. Vos charges augmentent, votre corps se transforme, votre confiance explose.</p>
+            </div>
+          </div>
+          <div class="why-item d-flex align-items-start gap-3">
+            <div class="why-icon"><i class="bi bi-shield-check-fill text-red"></i></div>
+            <div>
+              <h5>Méthode Éprouvée</h5>
+              <p>Des protocoles testés sur plus de 150 clients avec des résultats documentés. Pas d'improvisation.</p>
+            </div>
+          </div>
+          <div class="why-item d-flex align-items-start gap-3">
+            <div class="why-icon"><i class="bi bi-people-fill text-red"></i></div>
+            <div>
+              <h5>Accompagnement Humain</h5>
+              <p>Un vrai coach disponible, à l'écoute, qui s'adapte à vos contraintes de vie.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6" data-animate="fade-left">
+        <div class="why-image-grid">
+          <div class="why-img-main">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.39 (3).jpeg"
+                 alt="Coach BeeFit deadlift" loading="lazy" class="img-fluid rounded-4" />
+          </div>
+          <div class="why-img-sm">
+            <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (2).jpeg"
+                 alt="BeeFit silhouette kettlebell" loading="lazy" class="img-fluid rounded-3" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GALLERY ========== -->
+<section class="gallery-section py-section bg-dark-alt" id="gallery">
+  <div class="container">
+    <div class="text-center mb-5" data-animate="fade-up">
+      <div class="section-eyebrow">En Action</div>
+      <h2 class="section-title">Dans le <span class="text-red">Gym</span></h2>
+    </div>
+    <div class="gallery-masonry" id="galleryGrid">
+      <div class="gallery-item gallery-tall" data-animate="fade-up">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.39.jpeg" alt="Coach BeeFit plates" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.05s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.39 (1).jpeg" alt="BeeFit B&W barbell" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.1s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (2).jpeg" alt="BeeFit silhouette" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item gallery-tall" data-animate="fade-up" style="animation-delay:.15s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.47.jpeg" alt="BeeFit rowing machine" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.2s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (4).jpeg" alt="BeeFit kettlebell" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.25s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.48 (8).jpeg" alt="BeeFit pull-ups" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.3s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.40 (2).jpeg" alt="BeeFit deadlift" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.35s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.48 (9).jpeg" alt="BeeFit chin-ups" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item gallery-tall" data-animate="fade-up" style="animation-delay:.4s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.52.jpeg" alt="BeeFit black tank" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+      <div class="gallery-item" data-animate="fade-up" style="animation-delay:.45s">
+        <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.49 (1).jpeg" alt="BeeFit portrait" loading="lazy" />
+        <div class="gallery-overlay"><i class="bi bi-zoom-in"></i></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS ========== -->
+<section class="testimonials-section py-section" id="results">
+  <div class="container">
+    <div class="text-center mb-5" data-animate="fade-up">
+      <div class="section-eyebrow">Témoignages</div>
+      <h2 class="section-title">Ils ont <span class="text-red">Transformé</span> leur Vie</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4" data-animate="fade-up">
+        <div class="testimonial-card h-100" id="testi-1">
+          <div class="stars mb-3">
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+          </div>
+          <p class="testi-text">"En 12 semaines avec BeeFit, j'ai perdu 15 kg et gagné en force comme jamais. Le suivi quotidien fait toute la différence. Je recommande à 100%."</p>
+          <div class="testi-author d-flex align-items-center gap-3 mt-4">
+            <div class="testi-avatar" style="background: var(--red);">K</div>
+            <div>
+              <strong>Karim M.</strong>
+              <small class="d-block text-muted">–15 kg en 12 semaines</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.1s">
+        <div class="testimonial-card h-100" id="testi-2">
+          <div class="stars mb-3">
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+          </div>
+          <p class="testi-text">"Le programme Elite VIP est incroyable. Mon coach répond toujours présent, les plans sont ultra-précis. J'ai pris 8 kg de muscle en 4 mois."</p>
+          <div class="testi-author d-flex align-items-center gap-3 mt-4">
+            <div class="testi-avatar" style="background: var(--red);">A</div>
+            <div>
+              <strong>Amine B.</strong>
+              <small class="d-block text-muted">+8 kg de muscle en 4 mois</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4" data-animate="fade-up" style="animation-delay:.2s">
+        <div class="testimonial-card h-100" id="testi-3">
+          <div class="stars mb-3">
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+            <i class="bi bi-star-fill text-red"></i>
+          </div>
+          <p class="testi-text">"Jamais je n'aurais cru que c'était possible à mon âge. À 42 ans, je suis en meilleure forme que jamais. La méthode BeeFit est révolutionnaire."</p>
+          <div class="testi-author d-flex align-items-center gap-3 mt-4">
+            <div class="testi-avatar" style="background: var(--red);">S</div>
+            <div>
+              <strong>Sofiane D.</strong>
+              <small class="d-block text-muted">Transformation à 42 ans</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA FULL WIDTH ========== -->
+<section class="cta-section" id="cta">
+  <div class="cta-bg" style="background-image: url('../coach img/WhatsApp Image 2026-09-15 at 17.22.50 (1).jpeg');"></div>
+  <div class="cta-overlay"></div>
+  <div class="container position-relative z-1 text-center py-section" data-animate="fade-up">
+    <div class="section-eyebrow">Prêt à Commencer ?</div>
+    <h2 class="cta-title">
+      Ta Transformation<br/>
+      Commence <span class="text-red">Aujourd'hui</span>
+    </h2>
+    <p class="cta-subtitle">
+      Envoie un message maintenant et reçois ton programme personnalisé<br/>
+      sous 24h. Aucun engagement requis.
+    </p>
+    <div class="d-flex flex-wrap justify-content-center gap-3 mt-5">
+      <a href="https://wa.me/33600000000?text=Bonjour%2C%20je%20souhaite%20démarrer%20mon%20coaching%20BeeFit%20!" class="btn btn-red btn-lg-hero" id="cta-main-btn" target="_blank" rel="noopener">
+        <i class="bi bi-whatsapp me-2 fs-5"></i>Démarrer sur WhatsApp
+      </a>
+      <a href="#contact" class="btn btn-outline-white btn-lg-hero" id="cta-contact-btn">
+        <i class="bi bi-envelope me-2"></i>Envoyer un Message
+      </a>
+    </div>
+    <p class="cta-note mt-4">
+      <i class="bi bi-shield-check me-1 text-red"></i>
+      Consultation gratuite · Réponse en moins de 24h · Sans engagement
+    </p>
+  </div>
+</section>
+
+<!-- ========== CONTACT ========== -->
+<section class="contact-section py-section bg-dark-alt" id="contact">
+  <div class="container">
+    <div class="row g-5 align-items-start">
+      <div class="col-lg-5" data-animate="fade-right">
+        <div class="section-eyebrow">Contact</div>
+        <h2 class="section-title">Parlons de<br/><span class="text-red">Ton Objectif</span></h2>
+        <p class="section-body">
+          Tu as une question sur un programme, tu veux évaluer ton niveau ou tu es prêt à démarrer ? Contacte-moi directement.
+        </p>
+        <div class="contact-info mt-4 d-flex flex-column gap-3">
+          <div class="contact-info-item d-flex align-items-center gap-3">
+            <div class="contact-icon"><i class="bi bi-whatsapp text-red"></i></div>
+            <div>
+              <strong>WhatsApp</strong>
+              <p class="mb-0 text-muted">Réponse garantie sous 24h</p>
+            </div>
+          </div>
+          <div class="contact-info-item d-flex align-items-center gap-3">
+            <div class="contact-icon"><i class="bi bi-instagram text-red"></i></div>
+            <div>
+              <strong>Instagram</strong>
+              <p class="mb-0 text-muted">@beefit.coach</p>
+            </div>
+          </div>
+          <div class="contact-info-item d-flex align-items-center gap-3">
+            <div class="contact-icon"><i class="bi bi-clock-fill text-red"></i></div>
+            <div>
+              <strong>Disponibilité</strong>
+              <p class="mb-0 text-muted">Lun–Sam, 7h–21h</p>
+            </div>
+          </div>
+        </div>
+        <!-- Coach image -->
+        <div class="contact-coach-img mt-5">
+          <img src="../coach img/WhatsApp Image 2026-09-15 at 17.22.49 (3).jpeg"
+               alt="Coach BeeFit contact" loading="lazy" class="img-fluid rounded-4" />
+        </div>
+      </div>
+      <div class="col-lg-7" data-animate="fade-left">
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="cf-name" class="form-label">Prénom <span class="text-red">*</span></label>
+              <input type="text" id="cf-name" name="name" class="form-control custom-input" placeholder="Votre prénom" required />
+            </div>
+            <div class="col-sm-6">
+              <label for="cf-age" class="form-label">Âge</label>
+              <input type="number" id="cf-age" name="age" class="form-control custom-input" placeholder="Votre âge" min="16" max="80" />
+            </div>
+            <div class="col-12">
+              <label for="cf-email" class="form-label">Email <span class="text-red">*</span></label>
+              <input type="email" id="cf-email" name="email" class="form-control custom-input" placeholder="votre@email.com" required />
+            </div>
+            <div class="col-12">
+              <label for="cf-goal" class="form-label">Objectif Principal <span class="text-red">*</span></label>
+              <select id="cf-goal" name="goal" class="form-select custom-input" required>
+                <option value="" disabled selected>Choisissez votre objectif</option>
+                <option value="perte-poids">Perte de poids</option>
+                <option value="prise-muscle">Prise de muscle</option>
+                <option value="recomposition">Recomposition corporelle</option>
+                <option value="performance">Améliorer ma performance</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="cf-message" class="form-label">Message</label>
+              <textarea id="cf-message" name="message" class="form-control custom-input" rows="4" placeholder="Décrivez votre situation actuelle, vos contraintes et ce que vous souhaitez atteindre..."></textarea>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-red w-100 btn-submit" id="cf-submit-btn">
+                <i class="bi bi-send-fill me-2"></i>Envoyer ma Demande
+              </button>
+            </div>
+            <div class="col-12 text-center">
+              <p class="mb-0 small text-muted">Ou contactez-moi directement sur</p>
+              <a href="https://wa.me/33600000000" class="btn btn-outline-red mt-2 w-100" id="cf-whatsapp-btn" target="_blank" rel="noopener">
+                <i class="bi bi-whatsapp me-2"></i>WhatsApp
+              </a>
+            </div>
+          </div>
+          <!-- Form success message -->
+          <div class="form-success d-none mt-3" id="formSuccess">
+            <i class="bi bi-check-circle-fill text-red me-2"></i>
+            Message envoyé ! Je vous répondrai dans les 24h.
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="site-footer" id="footer">
+  <div class="container">
+    <div class="row g-4 align-items-start">
+      <div class="col-lg-4">
+        <div class="footer-brand d-flex align-items-center gap-2 mb-3">
+          <img src="../coach img/logo.jpeg" alt="BeeFit Logo" class="footer-logo" />
+          <span class="brand-name">BeeFit</span>
+        </div>
+        <p class="footer-tagline">Coaching fitness premium. Transformations réelles, résultats prouvés.</p>
+        <div class="social-links d-flex gap-3 mt-3">
+          <a href="#" class="social-btn" id="footer-ig" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="https://wa.me/33600000000" class="social-btn" id="footer-wa" aria-label="WhatsApp" target="_blank" rel="noopener"><i class="bi bi-whatsapp"></i></a>
+          <a href="#" class="social-btn" id="footer-yt" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+          <a href="#" class="social-btn" id="footer-tt" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+        </div>
+      </div>
+      <div class="col-sm-6 col-lg-2 offset-lg-1">
+        <h6 class="footer-heading">Navigation</h6>
+        <ul class="footer-links">
+          <li><a href="#about">À Propos</a></li>
+          <li><a href="#programs">Programmes</a></li>
+          <li><a href="#gallery">Galerie</a></li>
+          <li><a href="#results">Résultats</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-6 col-lg-2">
+        <h6 class="footer-heading">Programmes</h6>
+        <ul class="footer-links">
+          <li><a href="#programs">Starter Pack</a></li>
+          <li><a href="#programs">Pro Coaching</a></li>
+          <li><a href="#programs">Elite VIP</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6 class="footer-heading">Démarrer Maintenant</h6>
+        <p class="small text-muted mb-3">Prêt à transformer ton corps ? Envoie-moi un message WhatsApp.</p>
+        <a href="https://wa.me/33600000000?text=Bonjour%20BeeFit%20!" class="btn btn-red w-100" id="footer-cta-btn" target="_blank" rel="noopener">
+          <i class="bi bi-whatsapp me-2"></i>Contacter le Coach
+        </a>
+      </div>
+    </div>
+    <hr class="footer-divider" />
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <p class="mb-0 small text-muted">© 2026 BeeFit Coaching. Tous droits réservés.</p>
+      </div>
+      <div class="col-md-6 text-md-end">
+        <p class="mb-0 small text-muted">Fait avec <span class="text-red">♥</span> pour votre transformation</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== BACK TO TOP ========== -->
+<button class="back-to-top" id="backToTop" aria-label="Retour en haut">
+  <i class="bi bi-chevron-up"></i>
+</button>
+
+<!-- ========== LIGHTBOX ========== -->
+<div class="lightbox-overlay" id="lightboxOverlay">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Fermer"><i class="bi bi-x-lg"></i></button>
+  <img src="" alt="" id="lightboxImg" class="lightbox-img" />
+</div>
+
+<!-- Bootstrap 5 JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="js/main.js"></script>
+</body>
+</html>
